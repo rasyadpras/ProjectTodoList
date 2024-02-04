@@ -9,5 +9,7 @@ Proyek ini merupakan proyek akhir dari Pelatihan Fresh Graduate Academy 2022 Rea
 - Mengedit To-do.
 - Menghapus To-do.
 
+### Link Preview
 
-Link Preview : [To-do List App](https://rasyadpras.github.io/ProjectTodoList/)
+- [Github Pages](https://rasyadpras.github.io/ProjectTodoList/)
+- [Vercel](https://project-todo-list-rasyadpras.vercel.app/)
