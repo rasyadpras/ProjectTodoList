@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  background: #013e17;
+}
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  max-width: 720px;
+  min-height: auto;
+  background: #1c2b16;
+  text-align: center;
+  margin: 50px auto;
+  border-radius: 10px;
+  padding-bottom: 50px;
+}
+
+h1 {
+  margin: 32px 0;
+  color: #fff;
+  font-size: 48px;
+}
+
+.complete {
+  opacity: 0.2;
+}
+
+.todo-form {
+  margin-bottom: 32px;
+}
+
+.todo-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  outline: none;
+  width: 420px;
+  background: rgb(200, 200, 200);
+  color: #252525;
+}
+
+.todo-input::placeholder {
+  color: gray;
+}
+
+.todo-button {
+  padding: 16px;
+  border: none;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+  outline: none;
+  background: green;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.todo-input.edit {
+  border: none;
+}
+
+.todo-button.edit {
+  background: green;
+  padding: 16px 22px;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+  color: black;
+  background: lightgray;
+  padding: 16px;
+  border-radius: 10px;
+  width: 90%;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  outline: none;
+}
+
+.delete-icon {
+  background-color: transparent;
+  color: red;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.edit-icon {
+  margin-right: 10px;
+  margin-left: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.complete-icon {
+  background-color: transparent;
+  color: green;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 12px;
+  color: rgb(100, 100, 100);
+  font-style: italic;
+}
