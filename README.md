@@ -5,9 +5,9 @@ Proyek ini merupakan proyek akhir dari Pelatihan Fresh Graduate Academy 2022 Rea
 ### Fitur
 
 - Menambahkan To-do.
-- Menampilak To-do.
+- Menampilkan To-do.
 - Mengedit To-do.
 - Menghapus To-do.
 
 
-Link Preview : [To-do List App](https://rasyadpras.github.io/ProjectCalculator/)
+Link Preview : [To-do List App](https://rasyadpras.github.io/ProjectTodoList/)
